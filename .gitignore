@@ -1,0 +1,6 @@
+# Исключить папку node_modules
+node_modules/
+
+# Исключить файл credentials.js
+credentials.js
+budget-396317-9164b1d89d3d.json
