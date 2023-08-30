@@ -122,6 +122,14 @@ export const KEY_TRIP = Markup.inlineKeyboard([
     [Markup.button.callback("❌ НАЗАД", "back")],
 ]);
 
+export const PAY_METHOD = Markup.inlineKeyboard([
+    [
+        Markup.button.callback("💳 карта", "card"),
+        Markup.button.callback("💵 наличные", "cash"),
+    ],
+    [Markup.button.callback("❌ НАЗАД", "back")],
+]);
+
 export const subcategory = {
     kindergarten: "детский сад",
     toys: "игрушки",

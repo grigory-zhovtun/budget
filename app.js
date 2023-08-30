@@ -15,6 +15,7 @@ import {
   KEY_TRANSPORT,
   KEY_TRIP,
   KEY_PROFIT,
+  PAY_METHOD,
   subcategory,
 } from "./keyboards.js";
 
